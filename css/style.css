@@ -1,0 +1,365 @@
+html{box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+ul{
+	list-style-type: none;
+}
+body{
+color: #420F09;
+font-family: 'Charis SIL', serif;
+font-family: 'Forum', cursive;
+font-weight: 600;
+}
+.container{
+	max-width: 608px;
+	margin: 0 auto;
+}
+.criticism{
+	background-color: #dfd386;
+	padding-bottom: 150px;
+}
+.criticism__title{
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 9px;
+	font-size: 34px;
+	padding-top: 50px;
+	margin-left: 21%;
+}
+.criticism__inner-box{
+	display: flex;
+	justify-content: flex-start;
+
+	margin-top: -7%;
+
+}
+.criticism__left-title{
+	 margin-top: 23px;
+    height: 670px;
+    margin-right: 10px;
+
+}
+.criticism__item{
+	display: flex;
+	
+	justify-content: space-between;
+	margin-top: 100px;
+	align-items: bottom;
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+.criticism__item__text{
+	margin-bottom: 15px;
+}
+.criticism__item__text{
+	max-width: 155px;
+	
+	margin-left: 15px;
+	border: 2px solid #c28207;
+	padding: 10px;
+	text-align: center;
+}
+.button{
+	margin-top: 20px;
+	background-color: #c28207;
+	border: 0px;
+	font-weight: normal;
+	padding: 5px 20px;
+	cursor: pointer;
+	font-weight: 600;
+	color: #420F09;
+}
+.criticism__item__title{
+	margin-bottom: 20px;
+	line-height: 20px;
+	font-size: 23px;
+	font-weight: 800;
+}
+.criticism__item__description{
+	font-size: 16px;
+}
+.item-1{
+	margin-top: 34px;
+}
+.item-2{
+	margin-top: 34px;
+}
+.item-3{
+	margin-top: 0px;
+}
+.item-title{
+	margin-top: 30px;
+}
+.criticism__bottom__title{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 23px;
+}
+.text-1{
+	max-width: 143spx;
+}
+.title-1{
+	height: 670px;
+	margin-top: 76px;
+}
+.h2-item1{
+	font-size: 21px;
+}
+.item-4{
+	margin-top: 4px;
+}
+.item-5{
+	margin-top: 66px;
+}
+.item-15{
+	margin-top: 62px;
+}
+.item-13{
+	margin-top: -4px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 625px){
+	.criticism__item__text{
+		max-width: 120px;
+	}
+	.criticism__item__title{
+		font-size: 17px;
+	}
+	.criticism__item__description {
+   		font-size: 12px;
+	}
+	.criticism__left-title{
+		height: 574px;
+		margin-top: 36px;
+		margin-right: 0px;
+		width: 115px;
+	}
+	.title-1{
+		height: 590px;
+		margin-top: 70px;
+		margin-right: 0px;
+		width: 115px;
+	}
+	.criticism__inner-box{
+		margin-top: -12%;
+	}
+	.item-1 {
+    margin-top: 59px;
+	}
+	.item-2{
+		margin-top: 34px;
+	}
+	.item-3{
+		margin-top: 51px;
+	}
+	.item-title{
+		margin-top: 65px;
+	}
+	.criticism{
+		padding-bottom: 0;
+	}
+	.container{
+		padding-bottom: 70px;
+	}
+	.criticism-1{
+		padding-top: 100px;
+	}
+	.item-13{
+		margin-top: 19px;
+	}
+
+}
+@media(max-width: 545px){
+	.criticism__left-title{
+		height: 448px;
+		width: 72px;
+		margin-top: 48px;
+		margin-right: 0;
+	}
+	.criticism__item__title{
+		font-size: 15px;
+		padding: 5px;
+		margin-left: 3px;
+		margin-bottom: 5px;
+		line-height: 13px;
+	}
+	.criticism__item__description {
+    	font-size: 10px;
+    	max-width: 79px;
+	}
+	.button{
+		padding: 1px 11px;
+	}
+	.criticism__title {
+		font-size: 27px;
+		padding-top: 30px;
+	}
+	.criticism__item__text{
+		margin-left: 5px;
+		max-width: 109px;
+		padding: 4px;
+	}
+	.item-1{
+		margin-top: 38px;
+	}
+	.item-2{
+		margin-top: 28px;
+	}
+	.item-3{
+	margin-top: 45px;
+	}
+	.item-title{
+		margin-top: 95px;
+	}
+	.title-1{
+		width: 72px;
+	}
+	.item-15 {
+    	margin-top: 45px;
+	}
+	.item-13 {
+    	margin-top: 22px;
+	}
+	.title-1{
+		height: 457px;
+		margin-top: 77px;
+	}
+	.text-1{
+		max-width: 100px;
+	}
+	.h2-item1{
+		font-size: 13px;
+	}
+	.title-11{
+		margin-left: 10px;
+	}
+	.criticism__bottom__title {
+    	font-size: 17px;
+	}
+}
+@media(max-width: 451px){
+	.criticism__item{
+		margin-top: 65px;
+	}
+	.criticism__title{
+		font-size: 19px;
+		margin-left: 0%;
+	}
+	.criticism__item__title{
+		margin-bottom: 7px;
+		padding: 0px;
+    	margin-left: 0px;
+	}
+	.criticism__left-title{
+		height: 400px;
+		margin-top: 19px;
+		margin-right: 0;
+	}
+	.button{
+		margin-top: 9px;
+		font-size: 10px;
+	}
+	.criticism__item__text {
+    	max-width: 102px;
+    	margin-left: 2px;
+    	padding: 2px;
+	}
+	.item-2{
+		margin-top: 28px;
+	}
+	.item-3{
+		margin-top: 45px;
+	}
+	.criticism__bottom__title{
+		font-size: 19px;
+	}
+	.text-1{
+		max-width: 93px;
+	}
+	.title-11{
+		margin-left: 6px;
+	}
+	.title-1 {
+    	height: 394px;
+    	margin-top: 47px;
+	}
+}
+@media(max-width: 380px){
+	.criticism__title {
+   		font-size: 16px;
+	}
+	.criticism__left-title{
+		height: 384px;
+		min-width: 60px;
+		margin-top: 19px;
+	}
+	.criticism__item__text{
+		padding: 1px;
+	}
+	.criticism__item__title {
+    font-size: 13px;
+	}
+	.item-1 {
+    margin-top: 28px;
+	}
+	.item-4{
+		margin-top: 10px;
+	}
+	.item-3{
+		margin-top: 55px;
+	}
+	.item-2 {
+    margin-top: 18px;
+	}
+	.criticism__inner-box{
+		max-width: 100px;
+	}
+	.criticism__bottom__title{
+		font-size: 15px;
+	}
+	.title-1 {
+    	height: 409px;
+    	margin-top: 45px;
+    	min-width: 60px;
+	}
+	.title-11{
+		margin-left: 4px;
+	}
+	.container {
+    padding-bottom: 25px;
+	}
+}
+@media(max-width: 343px){
+	.item-1 {
+    	margin-top: 28px;
+	}
+	.criticism__title {
+    margin-left: 10%;
+	}
+	.criticism__left-title {
+    	margin-top: 20px;
+	}
+	.container {
+    padding-bottom: 0px;
+	}
+}
